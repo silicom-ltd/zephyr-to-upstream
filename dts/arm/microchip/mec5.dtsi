@@ -462,6 +462,7 @@
 			status = "disabled";
 			#io-channel-cells = <1>;
 			clktime = <32>;
+			channels = <16>;
 		};
 		peci0: peci@40006400 {
 			reg = <0x40006400 0x80>;
